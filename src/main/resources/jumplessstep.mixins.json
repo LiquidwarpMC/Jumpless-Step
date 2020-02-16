@@ -1,11 +1,9 @@
 {
   "required": true,
-  "package": "net.liquidwarpmc.modid.mixin",
+  "package": "net.liquidwarpmc.jumplessstep.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
-  "client": [
-    "Mixin"
-  ],
+  "mixins": ["PlayerEntityMixin"],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
