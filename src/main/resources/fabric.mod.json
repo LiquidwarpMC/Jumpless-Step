@@ -1,26 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "jumplessstep",
   "version": "${version}",
-  "name": "Name",
-  "description": "Description",
+  "name": "Jumpless Step",
+  "description": "Step over 1 block height without jumping !",
   "authors": [
     "Liquidwarp"
   ],
   "contact": {
-    "homepage": "https://github.com/LiquidwarpMC",
-    "sources": "https://github.com/LiquidwarpMC/modid"
+    "homepage": "https://github.com/LiquidwarpMC/jumpless-step",
+    "sources": "https://github.com/LiquidwarpMC/jumpless-step",
+    "issues": "https://github.com/LiquidwarpMC/jumpless-step/issues"
   },
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/jumplessstep/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.liquidwarpmc.modid.Mod"
+      "net.liquidwarpmc.jumplessstep.JumplessStep"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "jumplessstep.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.7.2",
